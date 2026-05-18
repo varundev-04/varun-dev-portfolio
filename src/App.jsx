@@ -259,7 +259,7 @@ export default function App() {
             </h1>
 
             <p style={styles.text}>
-              Data Engineer with experience building scalable cloud-native
+              Data Engineer with experience in building scalable cloud-native
               systems, ETL pipelines, CI/CD automation, and real-time data
               workflows on Google Cloud Platform.
             </p>
