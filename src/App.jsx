@@ -399,7 +399,7 @@ export default function App() {
         <h2 style={styles.heading}>Leadership</h2>
 
         <div style={styles.cardGrid}>
-          <div style={styles.card}>
+          <div style={{ ...styles.card, ...styles.achievementCard }}>
             <h3 style={styles.subHeading}>National Athlete</h3>
             <p style={styles.text}>
               Represented at the national and university level in
@@ -407,14 +407,14 @@ export default function App() {
             </p>
           </div>
 
-          <div style={styles.card}>
+          <div style={{ ...styles.card, ...styles.achievementCard }}>
             <h3 style={styles.subHeading}>Team Leadership</h3>
             <p style={styles.text}>
               Lead and coordinate the company basketball team.
             </p>
           </div>
 
-          <div style={styles.card}>
+          <div style={{ ...styles.card, ...styles.achievementCard }}>
             <h3 style={styles.subHeading}>Growth Mindset</h3>
             <p style={styles.text}>
               Passionate about fitness, productivity and continuous learning.
